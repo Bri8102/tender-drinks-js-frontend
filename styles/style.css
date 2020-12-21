@@ -1,0 +1,60 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #2b2a25;
+    background: #fef0f0;
+    }
+  
+    h1,h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  div.drink-card img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px; 
+  }
+  div.drink-card img:hover {
+    opacity: 0.3;
+  }
+  
+  #new-drink-form {
+    background: #d3eef0;
+    padding: 20px;
+  }
+  
+  div.card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+  #search-result {
+      background: #c8e7f0;
+      padding: 20px;
+    }
+  
+    /* MODAL CSS */
+    .modal {
+      display: none;
+      position: fixed;
+      padding-top: 200px;
+      background-color: rgba(245, 234, 234, 0.8); /* Black w/ opacity */
+    }
+  
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f34a4a;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+  
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
